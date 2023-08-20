@@ -10,7 +10,7 @@ app.engine("jsx", require("express-react-views").createEngine());
 app.use(express.urlencoded({ extended: false }));
 
 app.get("/", (req, res) => {
-  res.send("<h1>Hello WISE!</h1>");
+  res.send("<h1>Hello WISE TEAM !</h1>");
 });
 
 app.get("/fruits", (req, res) => {
